@@ -1,0 +1,10 @@
+name: EasyLights
+version: '1.0-SNAPSHOT'
+main: org.skibidi.easyLights.EasyLights
+api-version: '1.21'
+
+commands:
+   light:
+      description: give yourself a light block
+      usage: /<command> <level 1-15>
+      permission: easylights.light 
